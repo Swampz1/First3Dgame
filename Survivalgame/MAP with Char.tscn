@@ -1,19 +1,24 @@
-[gd_scene load_steps=7 format=3 uid="uid://vmyh2jmot6fa"]
+[gd_scene load_steps=10 format=3 uid="uid://vmyh2jmot6fa"]
 
+[ext_resource type="Texture2D" uid="uid://b0lni23rx1gb1" path="res://Just Survive/Just Survive/Textures/T_GrassGround.png" id="1_e2xe7"]
 [ext_resource type="PackedScene" uid="uid://cbl4aih18rfp3" path="res://Just Survive/Just Survive/FBX/SurviverMale.fbx" id="1_m7g4e"]
 [ext_resource type="PackedScene" uid="uid://blp4u1abknasg" path="res://Just Survive/Just Survive/FBX/SurvivorFemale.fbx" id="2_c3c15"]
 [ext_resource type="PackedScene" uid="uid://bxj5v6juparfr" path="res://Stylized Environment by Baloota/Assets/FBX/Tree.fbx" id="3_11s0x"]
 [ext_resource type="PackedScene" uid="uid://rp10v2sricld" path="res://Stylized Environment by Baloota/Assets/FBX/Bush 2.fbx" id="4_55yrx"]
+[ext_resource type="PackedScene" uid="uid://bbi4q30rneinc" path="res://Stylized Environment by Baloota/Assets/FBX/Rock.fbx" id="6_fv2pe"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_obafk"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dhkgl"]
+albedo_texture = ExtResource("1_e2xe7")
 
 [sub_resource type="BoxMesh" id="BoxMesh_nphtj"]
+
+[sub_resource type="Theme" id="Theme_exjte"]
 
 [node name="Node3D" type="Node3D"]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(9.91424, 0, 0, 0, 1, 0, 0, 0, 13.2065, 0.126794, -0.472488, 0.190934)
-material_override = SubResource("StandardMaterial3D_obafk")
+material_override = SubResource("StandardMaterial3D_dhkgl")
 mesh = SubResource("BoxMesh_nphtj")
 
 [node name="malesurv" parent="." instance=ExtResource("1_m7g4e")]
@@ -27,3 +32,41 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.53557, 0.117191, -2.7856)
 
 [node name="Root Scene" parent="." instance=ExtResource("4_55yrx")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.66431, 0.385866, -7.57191)
+
+[node name="Root Scene2" parent="." instance=ExtResource("6_fv2pe")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.77574, 0, 3.11147)
+
+[node name="Root Scene3" parent="." instance=ExtResource("6_fv2pe")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.15221, 0, 1.6356)
+
+[node name="Node2D" type="Node2D" parent="."]
+visible = false
+
+[node name="Control" type="Control" parent="Node2D"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 77.0
+offset_top = 73.0
+offset_right = 1064.0
+offset_bottom = 598.0
+
+[node name="Label" type="Label" parent="Node2D/Control"]
+layout_mode = 0
+offset_left = 247.0
+offset_top = -1.0
+offset_right = 352.0
+offset_bottom = 22.0
+scale = Vector2(5, 5)
+text = "Singeplayer"
+uppercase = true
+
+[node name="Label2" type="Label" parent="Node2D/Control"]
+layout_mode = 0
+offset_left = 244.0
+offset_top = 155.0
+offset_right = 351.0
+offset_bottom = 178.0
+scale = Vector2(5, 5)
+theme = SubResource("Theme_exjte")
+text = "Multiplayer"
+uppercase = true
