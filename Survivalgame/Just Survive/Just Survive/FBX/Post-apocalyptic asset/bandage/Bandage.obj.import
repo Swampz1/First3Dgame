@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bdxgiunvfkfjr"
+path="res://.godot/imported/Bandage.obj-3ad75c2fa1a6eb1d4464acd67e51fa11.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Bandage.obj-3ad75c2fa1a6eb1d4464acd67e51fa11.mesh"]
+
+source_file="res://Just Survive/Just Survive/FBX/Post-apocalyptic asset/bandage/Bandage.obj"
+dest_files=["res://.godot/imported/Bandage.obj-3ad75c2fa1a6eb1d4464acd67e51fa11.mesh", "res://.godot/imported/Bandage.obj-3ad75c2fa1a6eb1d4464acd67e51fa11.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

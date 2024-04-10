@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bcm0tthnyfr1v"
+path="res://.godot/imported/noise rifle.obj-44dcb1659c6851b72730ed5dcf54e356.mesh"
+
+[deps]
+
+files=["res://.godot/imported/noise rifle.obj-44dcb1659c6851b72730ed5dcf54e356.mesh"]
+
+source_file="res://Just Survive/Just Survive/FBX/Post-apocalyptic asset/shum/noise rifle.obj"
+dest_files=["res://.godot/imported/noise rifle.obj-44dcb1659c6851b72730ed5dcf54e356.mesh", "res://.godot/imported/noise rifle.obj-44dcb1659c6851b72730ed5dcf54e356.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

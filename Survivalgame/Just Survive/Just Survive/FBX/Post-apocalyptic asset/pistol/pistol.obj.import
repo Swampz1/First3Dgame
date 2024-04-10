@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bs2ydubnu34qb"
+path="res://.godot/imported/pistol.obj-c67e8d4ae983a3af77ca45e4891f904a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pistol.obj-c67e8d4ae983a3af77ca45e4891f904a.mesh"]
+
+source_file="res://Just Survive/Just Survive/FBX/Post-apocalyptic asset/pistol/pistol.obj"
+dest_files=["res://.godot/imported/pistol.obj-c67e8d4ae983a3af77ca45e4891f904a.mesh", "res://.godot/imported/pistol.obj-c67e8d4ae983a3af77ca45e4891f904a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
