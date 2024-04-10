@@ -1,0 +1,29 @@
+[gd_scene load_steps=7 format=3 uid="uid://vmyh2jmot6fa"]
+
+[ext_resource type="PackedScene" uid="uid://cbl4aih18rfp3" path="res://Just Survive/Just Survive/FBX/SurviverMale.fbx" id="1_m7g4e"]
+[ext_resource type="PackedScene" uid="uid://blp4u1abknasg" path="res://Just Survive/Just Survive/FBX/SurvivorFemale.fbx" id="2_c3c15"]
+[ext_resource type="PackedScene" uid="uid://bxj5v6juparfr" path="res://Stylized Environment by Baloota/Assets/FBX/Tree.fbx" id="3_11s0x"]
+[ext_resource type="PackedScene" uid="uid://rp10v2sricld" path="res://Stylized Environment by Baloota/Assets/FBX/Bush 2.fbx" id="4_55yrx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_obafk"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_nphtj"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(9.91424, 0, 0, 0, 1, 0, 0, 0, 13.2065, 0.126794, -0.472488, 0.190934)
+material_override = SubResource("StandardMaterial3D_obafk")
+mesh = SubResource("BoxMesh_nphtj")
+
+[node name="malesurv" parent="." instance=ExtResource("1_m7g4e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.49336, 0.421261, 0.332769)
+
+[node name="femalesurv" parent="." instance=ExtResource("2_c3c15")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16031, 0.0560797, -0.456611)
+
+[node name="tree" parent="." instance=ExtResource("3_11s0x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.53557, 0.117191, -2.7856)
+
+[node name="Root Scene" parent="." instance=ExtResource("4_55yrx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.66431, 0.385866, -7.57191)
