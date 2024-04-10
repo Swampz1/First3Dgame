@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://cbl4aih18rfp3"
+uid="uid://bg8jjrnn8ok5s"
 path="res://.godot/imported/SurviverMale.fbx-94f4b80e2341951eca82a0165ef41b3c.scn"
 
 [deps]
@@ -31,4 +31,4 @@ animation/remove_immutable_tracks=true
 import_script/path=""
 _subresources={}
 gltf/naming_version=1
-gltf/embedded_image_handling=1
+gltf/embedded_image_handling=0

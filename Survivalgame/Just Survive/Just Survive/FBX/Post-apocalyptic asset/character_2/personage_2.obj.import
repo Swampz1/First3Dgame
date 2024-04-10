@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c2s6ew43k61ix"
+path="res://.godot/imported/personage_2.obj-bfe31ea938954a4dfc80421226b000b8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/personage_2.obj-bfe31ea938954a4dfc80421226b000b8.mesh"]
+
+source_file="res://Just Survive/Just Survive/FBX/Post-apocalyptic asset/character_2/personage_2.obj"
+dest_files=["res://.godot/imported/personage_2.obj-bfe31ea938954a4dfc80421226b000b8.mesh", "res://.godot/imported/personage_2.obj-bfe31ea938954a4dfc80421226b000b8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

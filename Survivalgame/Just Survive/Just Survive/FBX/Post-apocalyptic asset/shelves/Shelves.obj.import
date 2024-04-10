@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c50sd1a5300ec"
+path="res://.godot/imported/Shelves.obj-609343f0f1649b90c9c26187108ed236.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Shelves.obj-609343f0f1649b90c9c26187108ed236.mesh"]
+
+source_file="res://Just Survive/Just Survive/FBX/Post-apocalyptic asset/shelves/Shelves.obj"
+dest_files=["res://.godot/imported/Shelves.obj-609343f0f1649b90c9c26187108ed236.mesh", "res://.godot/imported/Shelves.obj-609343f0f1649b90c9c26187108ed236.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

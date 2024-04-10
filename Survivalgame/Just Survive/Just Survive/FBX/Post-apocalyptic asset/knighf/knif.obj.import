@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c7lt1pf8olovp"
+path="res://.godot/imported/knif.obj-5aa8abb62d9658f9761e9e7ef432f65f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/knif.obj-5aa8abb62d9658f9761e9e7ef432f65f.mesh"]
+
+source_file="res://Just Survive/Just Survive/FBX/Post-apocalyptic asset/knighf/knif.obj"
+dest_files=["res://.godot/imported/knif.obj-5aa8abb62d9658f9761e9e7ef432f65f.mesh", "res://.godot/imported/knif.obj-5aa8abb62d9658f9761e9e7ef432f65f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

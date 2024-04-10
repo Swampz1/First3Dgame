@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4j4cl0d5mp1i"
+path="res://.godot/imported/bottle.obj-a80ed0cf2cb90992562d4920ed62c366.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bottle.obj-a80ed0cf2cb90992562d4920ed62c366.mesh"]
+
+source_file="res://Just Survive/Just Survive/FBX/Post-apocalyptic asset/bottle/bottle.obj"
+dest_files=["res://.godot/imported/bottle.obj-a80ed0cf2cb90992562d4920ed62c366.mesh", "res://.godot/imported/bottle.obj-a80ed0cf2cb90992562d4920ed62c366.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
