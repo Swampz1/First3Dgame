@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8pc3cou1oqkw"
-path.s3tc="res://.godot/imported/T_GrassDry.png-e8caee82d2f6b1bbbb44f94f9aa978e3.s3tc.ctex"
+uid="uid://bba37wluib7o2"
+path.s3tc="res://.godot/imported/SpruceTreeTrunk.png-f1cfd03cf1807a054b5bc70be2ba947c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Just Survive/Just Survive/Textures/T_GrassDry.png"
-dest_files=["res://.godot/imported/T_GrassDry.png-e8caee82d2f6b1bbbb44f94f9aa978e3.s3tc.ctex"]
+source_file="res://low polly textures/TreesTexture/SpruceTreeTrunk.png"
+dest_files=["res://.godot/imported/SpruceTreeTrunk.png-f1cfd03cf1807a054b5bc70be2ba947c.s3tc.ctex"]
 
 [params]
 

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8pc3cou1oqkw"
-path.s3tc="res://.godot/imported/T_GrassDry.png-e8caee82d2f6b1bbbb44f94f9aa978e3.s3tc.ctex"
+uid="uid://cxbw1ugbi7u7e"
+path.s3tc="res://.godot/imported/RockTexture2.png-fc8370593f3c7220273e879d6d986793.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Just Survive/Just Survive/Textures/T_GrassDry.png"
-dest_files=["res://.godot/imported/T_GrassDry.png-e8caee82d2f6b1bbbb44f94f9aa978e3.s3tc.ctex"]
+source_file="res://low polly textures/RockTexture/RockTexture2.png"
+dest_files=["res://.godot/imported/RockTexture2.png-fc8370593f3c7220273e879d6d986793.s3tc.ctex"]
 
 [params]
 
