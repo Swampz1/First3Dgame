@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c7dy03akuyva0"
+path="res://.godot/imported/Shelves.obj-c4fe6ebd983847b075ee002574f258cf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Shelves.obj-c4fe6ebd983847b075ee002574f258cf.mesh"]
+
+source_file="res://Post-apocalyptic asset/shelves/Shelves.obj"
+dest_files=["res://.godot/imported/Shelves.obj-c4fe6ebd983847b075ee002574f258cf.mesh", "res://.godot/imported/Shelves.obj-c4fe6ebd983847b075ee002574f258cf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,179 @@
+[gd_scene load_steps=48 format=3 uid="uid://dur8fv5l6w1j5"]
+
+[ext_resource type="PackedScene" uid="uid://dh7f31j3a2pyt" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Models/Objects_Interior(Village)_Demo.fbx" id="1_yn1mv"]
+[ext_resource type="Texture2D" uid="uid://bj6emrcc6v7uh" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Wood.jpg" id="2_ary8j"]
+[ext_resource type="Texture2D" uid="uid://brlem3uudfo57" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Wood_01.jpg" id="3_dpa5u"]
+[ext_resource type="Texture2D" uid="uid://cr4o3l7e3uwer" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/bed.png" id="4_66f87"]
+[ext_resource type="Texture2D" uid="uid://bim0lamann28f" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/bed_01.png" id="5_lgxid"]
+[ext_resource type="Texture2D" uid="uid://bfdfwjiitlq5f" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/bed_02.png" id="6_pfrkf"]
+[ext_resource type="Texture2D" uid="uid://c5oqxrgi7ys8c" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/bed_03.png" id="7_kueyc"]
+[ext_resource type="Texture2D" uid="uid://c712lj3nddk53" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/bed_04.png" id="8_2vav4"]
+[ext_resource type="Texture2D" uid="uid://blcntd1wqnm81" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Chest_drawers_01.png" id="9_cogk7"]
+[ext_resource type="Texture2D" uid="uid://dc3tnuocuusl1" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Chest_drawers_04.png" id="10_5p2nc"]
+[ext_resource type="Texture2D" uid="uid://baf5vahw48wg3" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Armchair.png" id="11_nuvpd"]
+[ext_resource type="Texture2D" uid="uid://cv1ltnuc50voa" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Armchair_01.png" id="12_7k57q"]
+[ext_resource type="Texture2D" uid="uid://c81kwyfx3ifg0" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Armchair_02.png" id="13_5t28m"]
+[ext_resource type="Texture2D" uid="uid://djgmf00lqbdjt" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Armchair_03.png" id="14_hppf5"]
+[ext_resource type="Texture2D" uid="uid://ykrsfg14bkrn" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Armchair_04.png" id="15_u4s6l"]
+[ext_resource type="Texture2D" uid="uid://chpxeeyga2gc2" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Chair.png" id="16_yki1s"]
+[ext_resource type="Texture2D" uid="uid://dyy4hxlfcwlo2" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Armchair_05.png" id="17_4qmg3"]
+[ext_resource type="Texture2D" uid="uid://bkq28r1lwa7ic" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Chair_01.png" id="18_f7htg"]
+[ext_resource type="Texture2D" uid="uid://cyv2tdma1pubk" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Chair_02.png" id="19_usskx"]
+[ext_resource type="Texture2D" uid="uid://8diclhc4v3g2" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Armchair_06.png" id="20_7step"]
+[ext_resource type="Texture2D" uid="uid://cfobgwpvqvm0l" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Armchair_07.png" id="21_465os"]
+[ext_resource type="Texture2D" uid="uid://ciw27tej5rdq4" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/Objects_Interior(Village)_Demo/Textures/Armchair_08.png" id="22_ufn4c"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ynrr1"]
+albedo_texture = ExtResource("2_ary8j")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6sl7s"]
+albedo_texture = ExtResource("3_dpa5u")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2xmxv"]
+albedo_texture = ExtResource("4_66f87")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rgd2k"]
+albedo_texture = ExtResource("5_lgxid")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_152a2"]
+albedo_texture = ExtResource("6_pfrkf")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i7ebb"]
+albedo_texture = ExtResource("7_kueyc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6xard"]
+albedo_texture = ExtResource("8_2vav4")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6s4jv"]
+albedo_texture = ExtResource("9_cogk7")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wibn0"]
+albedo_texture = ExtResource("10_5p2nc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v6mgh"]
+albedo_texture = ExtResource("10_5p2nc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_61qi2"]
+albedo_texture = ExtResource("10_5p2nc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wd6lo"]
+albedo_texture = ExtResource("10_5p2nc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4d4c5"]
+albedo_texture = ExtResource("10_5p2nc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2taxx"]
+albedo_texture = ExtResource("11_nuvpd")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s0wjm"]
+albedo_texture = ExtResource("12_7k57q")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g0ij0"]
+albedo_texture = ExtResource("13_5t28m")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j6qej"]
+albedo_texture = ExtResource("14_hppf5")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qyg8e"]
+albedo_texture = ExtResource("15_u4s6l")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gxbux"]
+albedo_texture = ExtResource("16_yki1s")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iw4cm"]
+albedo_texture = ExtResource("17_4qmg3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_usuyu"]
+albedo_texture = ExtResource("18_f7htg")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f4rds"]
+albedo_texture = ExtResource("19_usskx")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_npsw8"]
+albedo_texture = ExtResource("20_7step")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8k6wq"]
+albedo_texture = ExtResource("21_465os")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_whh5l"]
+albedo_texture = ExtResource("22_ufn4c")
+
+[node name="Root Scene" instance=ExtResource("1_yn1mv")]
+
+[node name="House_Demo_040" parent="RootNode" index="0"]
+material_override = SubResource("StandardMaterial3D_ynrr1")
+
+[node name="House_Demo_024" parent="RootNode" index="24"]
+transform = Transform3D(5.96046e-06, -100, -2.98023e-06, 2.98023e-06, 0, 100, -100, -2.98023e-06, 5.96046e-06, 15.6912, 1.63462, 4.91409)
+
+[node name="House_Demo_039" parent="RootNode" index="39"]
+material_override = SubResource("StandardMaterial3D_6sl7s")
+
+[node name="bed" parent="RootNode" index="40"]
+material_override = SubResource("StandardMaterial3D_2xmxv")
+
+[node name="bed_01" parent="RootNode" index="65"]
+material_override = SubResource("StandardMaterial3D_rgd2k")
+
+[node name="bed_02" parent="RootNode" index="66"]
+material_override = SubResource("StandardMaterial3D_152a2")
+
+[node name="bed_03" parent="RootNode" index="67"]
+material_override = SubResource("StandardMaterial3D_i7ebb")
+
+[node name="bed_04" parent="RootNode" index="68"]
+material_override = SubResource("StandardMaterial3D_6xard")
+
+[node name="Chest_drawers_01" parent="RootNode" index="69"]
+material_override = SubResource("StandardMaterial3D_6s4jv")
+
+[node name="Chest_drawers_01_003" parent="RootNode" index="70"]
+material_override = SubResource("StandardMaterial3D_wibn0")
+
+[node name="Chest_drawers_01_005" parent="RootNode" index="72"]
+material_override = SubResource("StandardMaterial3D_v6mgh")
+
+[node name="Chest_drawers_01_006" parent="RootNode" index="73"]
+material_override = SubResource("StandardMaterial3D_61qi2")
+
+[node name="Chest_drawers_01_007" parent="RootNode" index="74"]
+material_override = SubResource("StandardMaterial3D_wd6lo")
+
+[node name="Chest_drawers_04" parent="RootNode" index="86"]
+material_override = SubResource("StandardMaterial3D_4d4c5")
+
+[node name="Armchair" parent="RootNode" index="124"]
+material_override = SubResource("StandardMaterial3D_2taxx")
+
+[node name="Armchair_01" parent="RootNode" index="125"]
+material_override = SubResource("StandardMaterial3D_s0wjm")
+
+[node name="Armchair_02" parent="RootNode" index="126"]
+material_override = SubResource("StandardMaterial3D_g0ij0")
+
+[node name="Armchair_03" parent="RootNode" index="127"]
+material_override = SubResource("StandardMaterial3D_j6qej")
+
+[node name="Armchair_04" parent="RootNode" index="128"]
+material_override = SubResource("StandardMaterial3D_qyg8e")
+
+[node name="Chair" parent="RootNode" index="129"]
+material_override = SubResource("StandardMaterial3D_gxbux")
+
+[node name="Armchair_05" parent="RootNode" index="130"]
+material_override = SubResource("StandardMaterial3D_iw4cm")
+
+[node name="Chair_01" parent="RootNode" index="131"]
+material_override = SubResource("StandardMaterial3D_usuyu")
+
+[node name="Chair_02" parent="RootNode" index="132"]
+material_override = SubResource("StandardMaterial3D_f4rds")
+
+[node name="Armchair_06" parent="RootNode" index="133"]
+material_override = SubResource("StandardMaterial3D_npsw8")
+
+[node name="Armchair_07" parent="RootNode" index="134"]
+material_override = SubResource("StandardMaterial3D_8k6wq")
+
+[node name="Armchair_08" parent="RootNode" index="135"]
+material_override = SubResource("StandardMaterial3D_whh5l")

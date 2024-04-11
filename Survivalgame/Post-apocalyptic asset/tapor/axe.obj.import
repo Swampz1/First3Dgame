@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cpnfv0hhreg5w"
+path="res://.godot/imported/axe.obj-cfd75a216b3cd42b42277422c47be04e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/axe.obj-cfd75a216b3cd42b42277422c47be04e.mesh"]
+
+source_file="res://Post-apocalyptic asset/tapor/axe.obj"
+dest_files=["res://.godot/imported/axe.obj-cfd75a216b3cd42b42277422c47be04e.mesh", "res://.godot/imported/axe.obj-cfd75a216b3cd42b42277422c47be04e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
