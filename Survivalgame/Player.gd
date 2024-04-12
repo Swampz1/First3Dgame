@@ -3,7 +3,7 @@ extends CharacterBody3D
 var speed
 const WALK_SPEED = 5.0
 const SPRINT_SPEED = 8.0
-const JUMP_VELOCITY = 4.8
+const JUMP_VELOCITY = 4.4
 const SENSITIVITY = 0.004
 
 #bob variables
@@ -15,12 +15,15 @@ var t_bob = 0.0
 const BASE_FOV = 75.0
 const FOV_CHANGE = 1.5
 
+#fall damage
+var old_vel : float = 0.0
+var diff = velocity.y - old_vel
+
 # Get the gravity from the project settings to be synced with RigidBody nodes.
-var gravity = 9.8
+var gravity = 12
 
 @onready var head = $Head
 @onready var camera = $Head/Camera3D
-
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -37,7 +40,10 @@ func _physics_process(delta):
 	# Add the gravity.
 	if not is_on_floor():
 		velocity.y -= gravity * delta
-
+	
+	
+	
+	
 	# Handle Jump.
 	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
@@ -72,7 +78,10 @@ func _physics_process(delta):
 	camera.fov = lerp(camera.fov, target_fov, delta * 8.0)
 	
 	move_and_slide()
-
+	
+	if diff > 1:
+		print("Owie")
+	old_vel = velocity.y
 
 func _headbob(time) -> Vector3:
 	var pos = Vector3.ZERO

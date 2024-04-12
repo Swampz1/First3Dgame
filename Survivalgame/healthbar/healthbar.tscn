@@ -1,4 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://c2djbcr437f2q"]
+[gd_scene load_steps=6 format=3 uid="uid://c2djbcr437f2q"]
+
+[ext_resource type="Script" path="res://healthbar/healthbar.gd" id="1_yjpqf"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bm6un"]
 
@@ -19,12 +21,13 @@ shadow_offset = Vector2(0, 1)
 [node name="Healthbar" type="ProgressBar"]
 z_index = 1
 offset_left = -1.0
-offset_right = 239.0
-offset_bottom = 4.0
+offset_right = 238.0
+offset_bottom = 11.0
 theme_override_styles/background = SubResource("StyleBoxEmpty_bm6un")
 theme_override_styles/fill = SubResource("StyleBoxFlat_j5cp5")
 value = 60.0
 show_percentage = false
+script = ExtResource("1_yjpqf")
 
 [node name="DamageBar" type="ProgressBar" parent="."]
 z_index = -1
@@ -38,3 +41,9 @@ theme_override_styles/background = SubResource("StyleBoxFlat_l2mkc")
 theme_override_styles/fill = SubResource("StyleBoxFlat_05u7t")
 value = 80.0
 show_percentage = false
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.4
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
