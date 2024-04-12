@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://btu4c2besruvw"]
+
+[ext_resource type="Script" path="res://Player.gd" id="1_vsi51"]
+[ext_resource type="PackedScene" uid="uid://cbl4aih18rfp3" path="res://Just Survive/Just Survive/FBX/SurviverMale.fbx" id="2_n0ku4"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_lf7nf"]
+
+[node name="Player" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.33818, 0)
+script = ExtResource("1_vsi51")
+
+[node name="Head" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.192557, 0)
+
+[node name="Camera3D" type="Camera3D" parent="Head"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.605118, -0.0430028)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0882108, 0)
+shape = SubResource("CapsuleShape3D_lf7nf")
+
+[node name="Male" parent="." instance=ExtResource("2_n0ku4")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.0230473, -0.820237, 0.0203181)

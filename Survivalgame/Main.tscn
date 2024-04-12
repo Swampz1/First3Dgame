@@ -1,8 +1,7 @@
-[gd_scene load_steps=16 format=3 uid="uid://jkydor14uccl"]
+[gd_scene load_steps=14 format=3 uid="uid://jkydor14uccl"]
 
 [ext_resource type="Texture2D" uid="uid://b5lks4bro8jx2" path="res://low polly textures/TreesTexture/OakTreeLeaf.png" id="1_3fa1x"]
-[ext_resource type="Script" path="res://Player.gd" id="2_jhq2i"]
-[ext_resource type="PackedScene" uid="uid://cbl4aih18rfp3" path="res://Just Survive/Just Survive/FBX/SurviverMale.fbx" id="3_jfixj"]
+[ext_resource type="PackedScene" uid="uid://btu4c2besruvw" path="res://player.tscn" id="2_mwjcr"]
 [ext_resource type="PackedScene" uid="uid://ccra8mvt5ujqa" path="res://low polly textures/Trees/OakTree1.fbx" id="3_knjqp"]
 [ext_resource type="PackedScene" uid="uid://vhal3ngr3npf" path="res://low polly textures/Trees/OakTree3.fbx" id="4_xvxd5"]
 [ext_resource type="PackedScene" uid="uid://7n375jwnvvax" path="res://low polly textures/Trees/SpruceTree1.fbx" id="5_siink"]
@@ -15,8 +14,6 @@ albedo_texture = ExtResource("1_3fa1x")
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_sqxro"]
 data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, -0.5)
-
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_lf7nf"]
 
 [sub_resource type="PrismMesh" id="PrismMesh_3cmks"]
 
@@ -43,23 +40,7 @@ shape = SubResource("ConcavePolygonShape3D_sqxro")
 transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 111.931, 387.741, -193.869)
 shadow_enabled = true
 
-[node name="Player" type="CharacterBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.33818, 0)
-script = ExtResource("2_jhq2i")
-
-[node name="Head" type="Node3D" parent="Player"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.192557, 0)
-
-[node name="Camera3D" type="Camera3D" parent="Player/Head"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0135325, 0.611505, -0.0726271)
-fov = 107.595
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0882108, 0)
-shape = SubResource("CapsuleShape3D_lf7nf")
-
-[node name="Male" parent="Player" instance=ExtResource("3_jfixj")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.0230473, -0.820237, 0.0203181)
+[node name="Player" parent="." instance=ExtResource("2_mwjcr")]
 
 [node name="Node3D" type="Node3D" parent="."]
 
