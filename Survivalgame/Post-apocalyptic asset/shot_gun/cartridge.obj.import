@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://do250coiekneq"
+path="res://.godot/imported/cartridge.obj-0c3ab524f0d741d6de128a2f786b9e9e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cartridge.obj-0c3ab524f0d741d6de128a2f786b9e9e.mesh"]
+
+source_file="res://Post-apocalyptic asset/shot_gun/cartridge.obj"
+dest_files=["res://.godot/imported/cartridge.obj-0c3ab524f0d741d6de128a2f786b9e9e.mesh", "res://.godot/imported/cartridge.obj-0c3ab524f0d741d6de128a2f786b9e9e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cwej4vsp11dj4"
+path="res://.godot/imported/shotgun.obj-c7e7f6bb17d5c7ecfecf00e98cb286b3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/shotgun.obj-c7e7f6bb17d5c7ecfecf00e98cb286b3.mesh"]
+
+source_file="res://Post-apocalyptic asset/shot_gun/shotgun.obj"
+dest_files=["res://.godot/imported/shotgun.obj-c7e7f6bb17d5c7ecfecf00e98cb286b3.mesh", "res://.godot/imported/shotgun.obj-c7e7f6bb17d5c7ecfecf00e98cb286b3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

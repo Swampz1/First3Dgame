@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://1jf7tg5f8iod"
+path="res://.godot/imported/baseball bat.obj-164152958996054b675e5337300b2635.mesh"
+
+[deps]
+
+files=["res://.godot/imported/baseball bat.obj-164152958996054b675e5337300b2635.mesh"]
+
+source_file="res://Post-apocalyptic asset/baseball bat/baseball bat.obj"
+dest_files=["res://.godot/imported/baseball bat.obj-164152958996054b675e5337300b2635.mesh", "res://.godot/imported/baseball bat.obj-164152958996054b675e5337300b2635.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

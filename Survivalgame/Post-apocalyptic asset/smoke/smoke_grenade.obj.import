@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://er2useynt1mm"
+path="res://.godot/imported/smoke_grenade.obj-05699025aec43359b1d10ddfc9063527.mesh"
+
+[deps]
+
+files=["res://.godot/imported/smoke_grenade.obj-05699025aec43359b1d10ddfc9063527.mesh"]
+
+source_file="res://Post-apocalyptic asset/smoke/smoke_grenade.obj"
+dest_files=["res://.godot/imported/smoke_grenade.obj-05699025aec43359b1d10ddfc9063527.mesh", "res://.godot/imported/smoke_grenade.obj-05699025aec43359b1d10ddfc9063527.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

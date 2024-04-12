@@ -1,0 +1,25 @@
+[gd_scene load_steps=7 format=3 uid="uid://qjuj015sihfu"]
+
+[ext_resource type="PackedScene" uid="uid://dky3getddavso" path="res://Just Survive/Just Survive/Textures/retro_house_pack/models/fbx/house1.fbx" id="1_s0pfn"]
+[ext_resource type="Texture2D" uid="uid://dwueqf4ulvvps" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/house1_tex2.png" id="2_sdf3c"]
+[ext_resource type="Texture2D" uid="uid://ip5bod4uvfap" path="res://Just Survive/Just Survive/Textures/retro_house_pack/textures/1024x1024/house1_tex1.png" id="3_nhkpm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i1nsc"]
+albedo_texture = ExtResource("2_sdf3c")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0txvf"]
+albedo_texture = ExtResource("3_nhkpm")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ikaf6"]
+albedo_texture = ExtResource("2_sdf3c")
+
+[node name="Root Scene" instance=ExtResource("1_s0pfn")]
+
+[node name="house1" parent="RootNode" index="0"]
+material_override = SubResource("StandardMaterial3D_i1nsc")
+
+[node name="house1_door1" parent="RootNode/house1" index="0"]
+material_override = SubResource("StandardMaterial3D_0txvf")
+
+[node name="house1_windows" parent="RootNode/house1" index="5"]
+material_override = SubResource("StandardMaterial3D_ikaf6")
